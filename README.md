@@ -19,3 +19,8 @@ SITE_FQDN
 PROXY_CLIENT_HEADERS
 SALT
 ```
+
+While building the docker image we should specify the piwik version as a build argument e.g.
+```
+docker build . --build-arg PIWIK_VERSION=3.0.3
+```
