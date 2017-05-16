@@ -1,5 +1,7 @@
 FROM php:7.1.0-apache
 
+MAINTAINER IT Savedo <it@savedo.de>
+
 ARG PIWIK_VERSION
 ENV PIWIK_VERSION=${PIWIK_VERSION}
 
